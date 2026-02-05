@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Frostson — Command Portal</title>
+  <meta name="description" content="Frostson's Command Portal — in love with coding, Roblox scripts, unblocked games, and Google Docs." />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;600&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="page">
+    <header class="page-header">
+      <div class="brand">
+        <div class="logo">FS</div>
+        <div>
+          <h1>Frostson — Command Portal</h1>
+          <p class="sub">in love with coding • Roblox • scripts • brainrot</p>
+        </div>
+      </div>
+      <nav class="top-actions">
+        <button id="openYT" class="action-btn">Check out my YouTube</button>
+        <button id="openGames" class="action-btn">Unblocked Games Site</button>
+        <button id="openDoc" class="action-btn">My Google Doc</button>
+      </nav>
+    </header>
+
+    <section class="mac-window" role="region" aria-label="Command portal window">
+      <div class="mac-top">
+        <div class="traffic">
+          <span class="dot red" title="close" aria-hidden="true"></span>
+          <span class="dot yellow" title="minimize" aria-hidden="true"></span>
+          <span class="dot green" title="maximize" aria-hidden="true"></span>
+        </div>
+        <div class="win-title">frostson@macbook ~ — portal</div>
+        <div class="win-right" aria-hidden="true">⌘ ⎋</div>
+      </div>
+
+      <div class="terminal" id="terminal" aria-live="polite" aria-atomic="false">
+        <div id="lines" class="lines">
+          <div class="line dim">Welcome to Frostson's command portal — type a command or use the buttons above.</div>
+          <div class="line dim">Try: open-yt, open-games, open-doc, help</div>
+        </div>
+        <div id="prompt" class="prompt"><span class="user">frostson@macbook</span>:<span class="path">~</span>$ <span id="cursor" class="cursor">▌</span></div>
+      </div>
+
+      <div class="cmd-bar">
+        <button data-cmd="open-yt" class="cmd">open-yt → YouTube</button>
+        <button data-cmd="open-games" class="cmd">open-games → Unblocked</button>
+        <button data-cmd="open-doc" class="cmd">open-doc → Google Doc</button>
+      </div>
+    </section>
+
+    <section class="about card">
+      <h3>About</h3>
+      <p>I love making Roblox scripts, unblocked game websites, and Google Docs. Links used by this portal:</p>
+      <ul>
+        <li>YouTube: <a href="https://www.youtube.com/@Frostsonscripts" target="_blank" rel="noopener noreferrer">https://www.youtube.com/@Frostsonscripts</a></li>
+        <li>Unblocked games site: <a href="https://sites.google.com/students.mcpasd.k12.wi.us/kromeryunbl0ked/home?authuser=0" target="_blank" rel="noopener noreferrer">your site</a></li>
+        <li>Google Doc: <a href="https://docs.google.com/document/d/1Xz_cLd-elIEiJySCcBvk6i-nl41usZW2hxCHF0YjgS4/edit?tab=t.u5oai76irguf" target="_blank" rel="noopener noreferrer">your doc</a></li>
+      </ul>
+    </section>
+
+    <footer class="site-footer">
+      <small>Made with code & chill vibes — terminal style for MacBooks</small>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
